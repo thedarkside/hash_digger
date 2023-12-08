@@ -42,7 +42,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake', '~> 13.0'
   spec.add_development_dependency 'tapp', '~> 1.5'
 
-  spec.add_runtime_dependency 'activesupport', '~> 6.1'
+  spec.add_runtime_dependency 'activesupport', '~> 6.1', '< 7.1'
   spec.add_runtime_dependency 'amazing_print', '~> 1.3'
   spec.add_runtime_dependency 'ruby-try', '~> 1.1'
 end
